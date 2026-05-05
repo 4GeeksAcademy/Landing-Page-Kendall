@@ -1,7 +1,7 @@
 const Card = (props) => {
     
     return (
-        <div className="p-2 col-md-3">
+        <div className="col-md-3 p-2">
             <div className="card">
             <img 
                 src= {props.url} 

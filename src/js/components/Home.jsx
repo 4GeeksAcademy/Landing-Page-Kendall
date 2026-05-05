@@ -34,9 +34,9 @@ const Home = () => {
 	return (
 		<div className="d-flex flex-column min-vh-100">
 			<Navbar/>
-			<div className="container-fluid d-flex flex-column justify-content-center gap-4 mt-4 col-md-10 mx-auto">
+			<div className="container-fluid d-flex flex-column  mt-4 col-md-10">
 				<Jumbotron/>
-				<div className="container-fluid d-flex flex-wrap justify-space-around">
+				<div className="container-fluid d-flex flex-wrap justify-space-between mt-4">
 					{
 						cardImages.map((img,index) => {
 							return <Card key={index} url={img.url} title={img.title} />
