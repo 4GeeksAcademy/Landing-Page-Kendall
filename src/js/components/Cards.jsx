@@ -1,10 +1,11 @@
 const Card = (props) => {
     
     return (
-        <div className="card" style={{ width: "400px" }}>
+        <div className="p-2 col-md-3">
+            <div className="card">
             <img 
                 src= {props.url} 
-                className="card-img-top " 
+                className="card-img-top" 
                 alt="..."
             />
             <div className="card-body">
@@ -13,6 +14,8 @@ const Card = (props) => {
                 <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
         </div>
+        </div>
+        
     );
 };
 
