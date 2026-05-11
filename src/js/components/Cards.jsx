@@ -1,12 +1,13 @@
 const Card = (props) => {
     
     return (
-        <div className="col-md-3 p-2">
+        <div className="col-md-3">
             <div className="card">
             <img 
                 src= {props.url} 
                 className="card-img-top" 
                 alt="..."
+                style={{width: "100%", height: "150px", objectFit: "cover"}}
             />
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
